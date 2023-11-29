@@ -17,11 +17,6 @@
       <version>1.7.21</version>
     </dependency>
     <dependency>
-      <groupId>com.m800.sdk</groupId>
-      <artifactId>core</artifactId>
-      <version>4.2.1.889</version>
-    </dependency>
-    <dependency>
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>retrofit</artifactId>
       <version>2.9.0</version>
@@ -50,11 +45,6 @@
       <groupId>org.jetbrains.kotlin</groupId>
       <artifactId>kotlin-android-extensions-runtime</artifactId>
       <version>1.7.21</version>
-    </dependency>
-    <dependency>
-      <groupId>androidx.appcompat</groupId>
-      <artifactId>appcompat</artifactId>
-      <version>1.2.0</version>
     </dependency>
     <dependency>
       <groupId>androidx.core</groupId>
