@@ -112,4 +112,34 @@
       <version>2.2.0</version>
     </dependency>
   </dependencies>
+    
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.4.1</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>com.simpligility.maven.plugins</groupId>
+        <artifactId>android-maven-plugin</artifactId>
+        <version>4.1.0</version>
+        <extensions>true</extensions>         
+        <configuration>
+            <sign>
+                <debug>false</debug>
+            </sign>
+        </configuration>
+    </plugin>
+    </plugins>
+  </build>
+  
 </project>
