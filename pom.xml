@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.m800.sdk</groupId>
   <artifactId>call</artifactId>
-  <version>4.2.2.631</version>
+  <version>4.3.0.639</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
